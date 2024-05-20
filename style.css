@@ -1,0 +1,11 @@
+*{box-sizing: border-box;}
+body{display:flex; justify-content: center}
+#contenedor{display: grid; grid-template-columns: 1fr 1fr 1fr; width: 90vw}
+.elemento{text-align: center;}
+img{width:22vw; height:22vw; border-radius: 50%; margin:2vw; objec-fit: cover;}
+audio{width: 22vw;}
+@media screen and (max-width:600px) {
+  #reticula{grid-template-columns: 1fr;}
+  img{width:60vw; height:60vw;}
+  audio{width:60vw
+}
